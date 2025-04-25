@@ -71,7 +71,7 @@ sqlporter:
 
 #### fastagent.secrets.yaml
 API키 등 민감정보를 설정하는 설정파일입니다.  
-600권한을 권장합니다.
+600권한을 부여하는 것을 권장합니다.
 
 [샘플파일](config_sample/fastagent.secrets.yaml)
 ```yaml
