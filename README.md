@@ -24,7 +24,7 @@ Oracle -> PostgreSQL 쿼리 포팅 보조 유틸리티
 기본적인 설정을 진행할 수 있는 yaml포멧 설정파일로, 실행프로그램과 동일한 디렉토리에 위치해야합니다.  
 만약 해당 설정파일이 누락되었을 경우 실행파일 실행 시 예시파일이 자동생성됩니다.
 
-[샘플파일](config_sample/fastagent.secrets.yaml)
+[샘플파일](config_sample/fastagent.config.yaml)
 ```yaml
 default_model: openai.gpt-4o-mini             ## 기본값은 openai의 모델이며, openai의 API키 설정이 필요합니다.
 
