@@ -14,14 +14,14 @@ Oracle -> PostgreSQL 쿼리 포팅 보조 유틸리티
       └── user2.sql
 ```
 #### API / Ollama 사용 구성
-- 상용 API 사용
+- 상용 API 사용  
   ```bash
   # fastagent.secrets.yaml
   api키 등록
   openai:
     api_key: sk-abcdefg ## opanai API Key 입력
   ```
-- Ollama 사용
+- Ollama 사용  
   ollama 사용 시 설치와 LLM모델 다운로드가 필요합니다.  
   추천되는 모델은 llama3.2:3b와 gemma3:4b입니다.  
   [Ollama 공식 사이트](https://ollama.com)  
