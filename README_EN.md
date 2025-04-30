@@ -37,8 +37,7 @@ ollama pull [model_name]
 ```bash
 ./pg_porting_assistant
 ```
-
-## Notes
+Notes  
 For very long SQL queries, conversion may not be possible depending on the LLM model.
 
 (When using OpenAI's API, the limit is approximately 1,500 lines (10,000 tokens) due to fast-agent configuration constraints.)
