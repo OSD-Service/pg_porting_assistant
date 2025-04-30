@@ -19,7 +19,7 @@ Oracle -> PostgreSQL 쿼리 포팅 보조 유틸리티
 - 상용 API 사용  
   ```bash
   # fastagent.secrets.yaml
-  api키 등록
+  # api키 등록
   openai:
     api_key: sk-abcdefg ## opanai API Key 입력
   ```
