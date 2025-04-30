@@ -89,6 +89,7 @@ sqlporter:
     min_rating: "EXCELLENT"                    ## 쿼리품질 [ EXCELLENT / GOOD ]
     retry_limit: 3                             ## 최대 재시도 횟수
     comment_prefix: "--"
+    max_tokens: 10000                          ## 모델이 받아들일 수 있는 최대 token 수 (OpenAI API 사용시)
 ```
 
 #### fastagent.secrets.yaml
