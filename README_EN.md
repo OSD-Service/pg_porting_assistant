@@ -112,6 +112,6 @@ It must be in the same location as the pg_porting_assistant executable, and the 
 The TOBE directory is where ported SQL files are stored, mimicking the subdirectory structure of ASIS.  
 It must be in the same location as the pg_porting_assistant executable. If it doesn't exist, it will be created, and converted SQL files will be stored in its subdirectories.  
 
-## Notes
+Notes  
 1. All results require additional validation by the user.
 2. Testing was conducted only in the RockyLinux 8 environment.
