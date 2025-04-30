@@ -38,8 +38,7 @@ Oracle -> PostgreSQL 쿼리 포팅 보조 유틸리티
 ```
 
 ## 주의사항
-너무 긴 SQL의 경우 LLM Model에 따라 변환이 불가능한 경우가 있을 수 있습니다.  
-(OpenAI의 API를 사용하는 경우, fast-agent의 설정한계로 약 1500줄(10000토큰) 가량의 SQL문 변환이 한계입니다.)  
+너무 긴 SQL의 경우 LLM Model에 따라 변환이 불가능한 경우가 있을 수 있습니다.   
 
 ## 설정
 #### fastagent.config.yaml
