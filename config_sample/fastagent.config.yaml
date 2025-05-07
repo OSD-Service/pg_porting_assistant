@@ -27,6 +27,11 @@ sqlporter:
     converter_2: "generic.llama3.2:1b"
     converter_3: "openai.gpt-4o-mini"
 
+  paths:
+    input_dir: "./asis/path"
+    output_dir: "./tobe/path"
+    report_dir: "./reports/path"
+
   instructions:
     converter_1: ""
     converter_2: |
