@@ -83,6 +83,11 @@ sqlporter:
       Respond ONLY with JSON as described in the default instruction.
     converter_3: ""
 
+  paths:
+    input_dir: "./asis/path"
+    output_dir: "./tobe/path"
+    report_dir: "./reports/path"
+
   settings:
     max_refinements: 3                         ## 최대 쿼리 정제 횟수
     min_rating: "EXCELLENT"                    ## 쿼리품질 [ EXCELLENT / GOOD ]
